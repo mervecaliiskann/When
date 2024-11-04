@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+
 final class Header: UILabel {
     init(title: String) {
         super.init(frame: .zero)

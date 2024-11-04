@@ -7,9 +7,9 @@
 
 import UIKit
 
-class SplashViewController: UIViewController {
-    let whenLabel = UILabel()
-    let whenImage = UIImageView()
+final class SplashViewController: UIViewController {
+    private let whenLabel = UILabel()
+    private let whenImage = UIImageView()
     
     override func viewDidLoad() {
         super.viewDidLoad()

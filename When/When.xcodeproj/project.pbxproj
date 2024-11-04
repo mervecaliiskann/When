@@ -11,6 +11,7 @@
 		EC08D8E52C8F6256000A3285 /* When.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC08D8E42C8F6256000A3285 /* When.swift */; };
 		EC08D8F22C8F66D8000A3285 /* MultipurButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC08D8F12C8F66D8000A3285 /* MultipurButton.swift */; };
 		EC08D8F42C8FA8DA000A3285 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC08D8F32C8FA8DA000A3285 /* SignUpVC.swift */; };
+		EC48F3CF2CAEC5D400D69012 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC48F3CE2CAEC5D400D69012 /* TextField.swift */; };
 		EC53975F2C9B1D610080DACA /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC53975E2C9B1D610080DACA /* IconButton.swift */; };
 		EC77402C2C7D096F003684BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC77402B2C7D096F003684BB /* AppDelegate.swift */; };
 		EC7740302C7D096F003684BB /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC77402F2C7D096F003684BB /* SplashViewController.swift */; };
@@ -27,6 +28,7 @@
 		EC08D8E42C8F6256000A3285 /* When.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = When.swift; sourceTree = "<group>"; };
 		EC08D8F12C8F66D8000A3285 /* MultipurButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipurButton.swift; sourceTree = "<group>"; };
 		EC08D8F32C8FA8DA000A3285 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		EC48F3CE2CAEC5D400D69012 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 		EC53975E2C9B1D610080DACA /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
 		EC7740282C7D096F003684BB /* When.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = When.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC77402B2C7D096F003684BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 		EC08D8F02C8F6655000A3285 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EC48F3CE2CAEC5D400D69012 /* TextField.swift */,
 				EC08D8F12C8F66D8000A3285 /* MultipurButton.swift */,
 				EC0246FC2C96CBAC00AE44F1 /* Header.swift */,
 				EC53975E2C9B1D610080DACA /* IconButton.swift */,
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC53975F2C9B1D610080DACA /* IconButton.swift in Sources */,
+				EC48F3CF2CAEC5D400D69012 /* TextField.swift in Sources */,
 				EC7740302C7D096F003684BB /* SplashViewController.swift in Sources */,
 				EC0246FD2C96CBAC00AE44F1 /* Header.swift in Sources */,
 				EC08D8F42C8FA8DA000A3285 /* SignUpVC.swift in Sources */,
