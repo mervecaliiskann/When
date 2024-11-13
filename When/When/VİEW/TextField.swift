@@ -10,7 +10,7 @@ import UIKit
 
 final class TextField : UITextField {
     
-    let paddingView1 = UIView(frame: CGRect(x: 0, y: 0, width: 24, height: 60))
+    private let paddingView1 = UIView(frame: CGRect(x: 0, y: 0, width: 24, height: 60))
     
     
     init(placeholder: String, text: String) {
@@ -19,7 +19,6 @@ final class TextField : UITextField {
         self.layer.cornerRadius = 8
         self.font = UIFont(name: "Rubik", size: 16)
         self.keyboardAppearance = .default
-        self.keyboardType = .numberPad
         self.placeholder = placeholder
         self.text = text
         self.translatesAutoresizingMaskIntoConstraints = false
