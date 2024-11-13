@@ -18,9 +18,13 @@
 		EC7740352C7D0970003684BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC7740342C7D0970003684BB /* Assets.xcassets */; };
 		EC7740382C7D0970003684BB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EC7740372C7D0970003684BB /* Base */; };
 		EC7740412C7D130F003684BB /* Rubik.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC7740402C7D130F003684BB /* Rubik.ttf */; };
+		EC7B30E92CE39E0500D6A2BD /* VerificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7B30E82CE39E0500D6A2BD /* VerificationVC.swift */; };
 		ECB497582C943BB400EDE669 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB497572C943BB400EDE669 /* Onboarding.swift */; };
 		ECB808DE2C864C4A00DBCDC6 /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB808DD2C864C4A00DBCDC6 /* OnboardingVC.swift */; };
-		ECE350462C9DA7AA00E66CB9 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE350452C9DA7AA00E66CB9 /* SignUp.swift */; };
+		ECC3C71F2CDA05F8001B271F /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = ECC3C71E2CDA05F8001B271F /* SnapKit */; };
+		ECC82A3C2CE1FC51008F3D47 /* signButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC82A3B2CE1FC51008F3D47 /* signButton.swift */; };
+		ECC82A3F2CE2238E008F3D47 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC82A3E2CE2238E008F3D47 /* LoginVC.swift */; };
+		ECC82A412CE24D70008F3D47 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECC82A402CE24D70008F3D47 /* Poppins-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,9 +41,12 @@
 		EC7740372C7D0970003684BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC7740392C7D0970003684BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC7740402C7D130F003684BB /* Rubik.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rubik.ttf; sourceTree = "<group>"; };
+		EC7B30E82CE39E0500D6A2BD /* VerificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationVC.swift; sourceTree = "<group>"; };
 		ECB497572C943BB400EDE669 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
 		ECB808DD2C864C4A00DBCDC6 /* OnboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
-		ECE350452C9DA7AA00E66CB9 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		ECC82A3B2CE1FC51008F3D47 /* signButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signButton.swift; sourceTree = "<group>"; };
+		ECC82A3E2CE2238E008F3D47 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		ECC82A402CE24D70008F3D47 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECC3C71F2CDA05F8001B271F /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +64,11 @@
 		EC08D8E62C8F6281000A3285 /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				EC08D8EB2C8F6376000A3285 /* Splash */,
 				ECB808E12C86501000DBCDC6 /* Onboarding */,
+				EC08D8EB2C8F6376000A3285 /* Splash */,
 				ECB808E02C86500600DBCDC6 /* SignUp */,
+				ECC82A3D2CE2234B008F3D47 /* Login */,
+				EC7B30E72CE39DDC00D6A2BD /* Verification */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -75,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				EC7740402C7D130F003684BB /* Rubik.ttf */,
+				ECC82A402CE24D70008F3D47 /* Poppins-Regular.ttf */,
 				EC7740342C7D0970003684BB /* Assets.xcassets */,
 				EC7740362C7D0970003684BB /* LaunchScreen.storyboard */,
 			);
@@ -124,7 +135,6 @@
 		EC08D8EF2C8F63D4000A3285 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				ECE350452C9DA7AA00E66CB9 /* SignUp.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -136,6 +146,7 @@
 				EC08D8F12C8F66D8000A3285 /* MultipurButton.swift */,
 				EC0246FC2C96CBAC00AE44F1 /* Header.swift */,
 				EC53975E2C9B1D610080DACA /* IconButton.swift */,
+				ECC82A3B2CE1FC51008F3D47 /* signButton.swift */,
 			);
 			name = Views;
 			path = "VİEW";
@@ -170,6 +181,14 @@
 			path = When;
 			sourceTree = "<group>";
 		};
+		EC7B30E72CE39DDC00D6A2BD /* Verification */ = {
+			isa = PBXGroup;
+			children = (
+				EC7B30E82CE39E0500D6A2BD /* VerificationVC.swift */,
+			);
+			path = Verification;
+			sourceTree = "<group>";
+		};
 		ECB808DF2C864FFA00DBCDC6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +215,14 @@
 			path = Onboarding;
 			sourceTree = "<group>";
 		};
+		ECC82A3D2CE2234B008F3D47 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				ECC82A3E2CE2238E008F3D47 /* LoginVC.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -212,6 +239,9 @@
 			dependencies = (
 			);
 			name = When;
+			packageProductDependencies = (
+				ECC3C71E2CDA05F8001B271F /* SnapKit */,
+			);
 			productName = When;
 			productReference = EC7740282C7D096F003684BB /* When.app */;
 			productType = "com.apple.product-type.application";
@@ -240,6 +270,9 @@
 				Base,
 			);
 			mainGroup = EC77401F2C7D096F003684BB;
+			packageReferences = (
+				ECC3C71D2CDA05F8001B271F /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = EC7740292C7D096F003684BB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,6 +290,7 @@
 				EC7740352C7D0970003684BB /* Assets.xcassets in Resources */,
 				EC7740412C7D130F003684BB /* Rubik.ttf in Resources */,
 				EC7740382C7D0970003684BB /* Base in Resources */,
+				ECC82A412CE24D70008F3D47 /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,15 +303,17 @@
 			files = (
 				EC53975F2C9B1D610080DACA /* IconButton.swift in Sources */,
 				EC48F3CF2CAEC5D400D69012 /* TextField.swift in Sources */,
+				ECC82A3F2CE2238E008F3D47 /* LoginVC.swift in Sources */,
 				EC7740302C7D096F003684BB /* SplashViewController.swift in Sources */,
 				EC0246FD2C96CBAC00AE44F1 /* Header.swift in Sources */,
 				EC08D8F42C8FA8DA000A3285 /* SignUpVC.swift in Sources */,
 				EC77402C2C7D096F003684BB /* AppDelegate.swift in Sources */,
+				EC7B30E92CE39E0500D6A2BD /* VerificationVC.swift in Sources */,
 				ECB497582C943BB400EDE669 /* Onboarding.swift in Sources */,
 				ECB808DE2C864C4A00DBCDC6 /* OnboardingVC.swift in Sources */,
 				EC08D8E52C8F6256000A3285 /* When.swift in Sources */,
 				EC08D8F22C8F66D8000A3285 /* MultipurButton.swift in Sources */,
-				ECE350462C9DA7AA00E66CB9 /* SignUp.swift in Sources */,
+				ECC82A3C2CE1FC51008F3D47 /* signButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,6 +526,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ECC3C71D2CDA05F8001B271F /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ECC3C71E2CDA05F8001B271F /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ECC3C71D2CDA05F8001B271F /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EC7740202C7D096F003684BB /* Project object */;
 }
