@@ -19,7 +19,7 @@
 		EC7740382C7D0970003684BB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EC7740372C7D0970003684BB /* Base */; };
 		EC7740412C7D130F003684BB /* Rubik.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC7740402C7D130F003684BB /* Rubik.ttf */; };
 		EC7B30E92CE39E0500D6A2BD /* VerificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7B30E82CE39E0500D6A2BD /* VerificationVC.swift */; };
-		ECA051032CF0B5B2005B73C5 /* PaywallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA051022CF0B5B2005B73C5 /* PaywallVC.swift */; };
+		EC858B212CE4DADD007D0841 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC858B202CE4DADD007D0841 /* HomeVC.swift */; };
 		ECB497582C943BB400EDE669 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB497572C943BB400EDE669 /* Onboarding.swift */; };
 		ECB808DE2C864C4A00DBCDC6 /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB808DD2C864C4A00DBCDC6 /* OnboardingVC.swift */; };
 		ECC3C71F2CDA05F8001B271F /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = ECC3C71E2CDA05F8001B271F /* SnapKit */; };
@@ -43,7 +43,7 @@
 		EC7740392C7D0970003684BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC7740402C7D130F003684BB /* Rubik.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rubik.ttf; sourceTree = "<group>"; };
 		EC7B30E82CE39E0500D6A2BD /* VerificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationVC.swift; sourceTree = "<group>"; };
-		ECA051022CF0B5B2005B73C5 /* PaywallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallVC.swift; sourceTree = "<group>"; };
+		EC858B202CE4DADD007D0841 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		ECB497572C943BB400EDE669 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
 		ECB808DD2C864C4A00DBCDC6 /* OnboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
 		ECC82A3B2CE1FC51008F3D47 /* signButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signButton.swift; sourceTree = "<group>"; };
@@ -66,6 +66,7 @@
 		EC08D8E62C8F6281000A3285 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				EC858B1F2CE4DAC8007D0841 /* Home */,
 				ECB808E12C86501000DBCDC6 /* Onboarding */,
 				EC08D8EB2C8F6376000A3285 /* Splash */,
 				ECB808E02C86500600DBCDC6 /* SignUp */,
@@ -149,7 +150,6 @@
 				EC0246FC2C96CBAC00AE44F1 /* Header.swift */,
 				EC53975E2C9B1D610080DACA /* IconButton.swift */,
 				ECC82A3B2CE1FC51008F3D47 /* signButton.swift */,
-				ECA051022CF0B5B2005B73C5 /* PaywallVC.swift */,
 			);
 			name = Views;
 			path = "VİEW";
@@ -190,6 +190,14 @@
 				EC7B30E82CE39E0500D6A2BD /* VerificationVC.swift */,
 			);
 			path = Verification;
+			sourceTree = "<group>";
+		};
+		EC858B1F2CE4DAC8007D0841 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EC858B202CE4DADD007D0841 /* HomeVC.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		ECB808DF2C864FFA00DBCDC6 /* Model */ = {
@@ -305,9 +313,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC53975F2C9B1D610080DACA /* IconButton.swift in Sources */,
+				EC858B212CE4DADD007D0841 /* HomeVC.swift in Sources */,
 				EC48F3CF2CAEC5D400D69012 /* TextField.swift in Sources */,
 				ECC82A3F2CE2238E008F3D47 /* LoginVC.swift in Sources */,
-				ECA051032CF0B5B2005B73C5 /* PaywallVC.swift in Sources */,
 				EC7740302C7D096F003684BB /* SplashViewController.swift in Sources */,
 				EC0246FD2C96CBAC00AE44F1 /* Header.swift in Sources */,
 				EC08D8F42C8FA8DA000A3285 /* SignUpVC.swift in Sources */,
